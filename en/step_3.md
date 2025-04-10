@@ -1,22 +1,41 @@
-## What can you do now?
+<h2 class="c-project-heading--task">Add emoji bullets</h2>
+--- task ---
+Use the emoji variable to add a bullet point to every line.
+--- /task ---
 
-If you are following the [PATH NAME](https://projects.raspberrypi.org/en/pathways/PATH-NAME) pathway, you can move on to the [NEXT PROJECT/PATH NAME](https://projects.raspberrypi.org/en/projects/PROJECT-SLUG) project. In this project, you will do DESCRIPTION.
+<h2 class="c-project-heading--explainer">Make your list look amazing</h2>
 
------- OR ---------
+Now that the lines are separated, let’s add some bullet points!
 
-Try our [PROJECT/PATH NAME](https://projects.raspberrypi.org/en/collections/PATH-SLUG) project pathway where you will DESCRIPTION.
+You can do this by changing the separator again, this time to `emoji + '\n'`.
 
---- print-only --- 
+Also, you’ll want to manually add the emoji at the **start of the first line**, since `sep` only adds it *between* lines.
 
-![ALT TEXT](images/IMAGE-FROM-PROJECT.png)
+<div class="c-project-code">
+--- code ---
+---
+language: python
+filename: prank_recipe.py
+line_numbers: true
+---
+print(
+    f'{emoji} Start with a scoop of {carb}',
+    f'Top with diced {veg_1} and {veg_2}',
+    f'Add grilled {protein}',
+    f'Garnish with {garnish}',
+    f'Serve with a side of {side}',
+    sep=emoji + '\n'
+)
+--- /code ---
+</div>
 
---- /print-only ---
+<div class="c-project-callout c-project-callout--tip">
 
---- no-print ---
+### Tip
 
-<iframe src="https://editor.raspberrypi.org/en/embed/viewer/STARTER_PROJECT_SLUG" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-</iframe>
+Try changing the `emoji` variable at the top to something cute like:<br />
+• 🍽️😋<br />
+• 🧁<br />
+• 🍱
 
---- /no-print ---
-
-Or, why not try out another [CODING_LANGUAGE](https://projects.raspberrypi.org/en/projects?software%5B%5D=CODING_LANGUAGE) project.
+</div>

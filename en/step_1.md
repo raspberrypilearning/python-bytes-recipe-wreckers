@@ -1,42 +1,41 @@
-## What you will make
-OR
-## What you will do - change meta if you use this
+<h2 class="c-project-heading--task">Make the code easier to read</h2>
+--- task ---
+Split the long print statement onto multiple lines so it’s easier to understand.
+--- /task ---
 
-A brief description - one or two sentences. 
+<h2 class="c-project-heading--explainer">Readable code is good code</h2>
 
---- print-only ---
-![ALT TEXT](images/IMAGE.png)
---- /print-only ---
+The café manager has written all the print parts on one long line — it works, but it's hard to read!
 
---- no-print ---
+Luckily, Python lets you write long `print()` statements across multiple lines.  
+You just need to **end each part with a comma**, and Python will still treat it as one command.
 
-Editor embed 
+---
 
---- /no-print ---
+**Run the program once** before making changes and look at the output.  
+Then split the print statement across multiple lines and run it again.  
+The output should be the same — but the code is much easier to read!
 
---- no-print ---
-Video embed
-
-<video width="640" height="360" controls>
-<source src="images/videoname.mp4" type="video/mp4">
-</video>
-
-Youtube embed 
-<html>
-<div style="position: relative; overflow: hidden; padding-top: 56.25%;">
-<iframe style="position: absolute; top: 0; left: 0; right: 0; width: 100%; height: 100%; border: none;" src="https://www.youtube.com/embed/XXXXXXXXX?rel=0&cc_load_policy=1" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
-</iframe>
-</div><br>
-</html>
-
-Scratch embed
-<div class="scratch-preview">
- <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/XXXXXXXXX/?autostart=false" frameborder="0"></iframe>
+<div class="c-project-code">
+--- code ---
+---
+language: python
+filename: prank_recipe.py
+line_numbers: true
+---
+print(
+    f'{emoji} Start with a scoop of {carb}',
+    f'Top with diced {veg_1} and {veg_2}',
+    f'Add grilled {protein}',
+    f'Garnish with {garnish}',
+    f'Serve with a side of {side}')
+--- /code ---
 </div>
 
---- /no-print ---
+<div class="c-project-callout c-project-callout--tip">
 
-### You will need:
-- a
-- b
-- c
+### Tip
+
+Make sure you leave **commas** at the end of each line inside the print statement!
+
+</div>

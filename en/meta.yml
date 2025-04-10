@@ -1,11 +1,21 @@
-title: default-project-template
+title: "Recipe Wreckers"
 hero_image: images/banner.png
-description: default-project-template description
+description: Create and secretly sabotage a recipe using Python print formatting and string methods.
+meta_title: Python coding projects for kids and teens | Recipe Wreckers
+meta_description: Learn Python with the Raspberry Pi Foundation. Make and secretly ruin a recipe using print(), f-strings, emoji, and .replace().
 version: 1
 listed: false
 copyedit: false
-last_tested: "2025-01-01"
+last_tested: "2025-04-04"
 steps:
-  - title: What you will make
-  - title: Step title
-  - title: What can you do now?
+  - title: step_1
+  - title: step_2
+    completion:
+      - engaged
+  - title: step_3
+  - title: step_4
+  - title: step_5
+  - title: step_6
+    completion:
+      - internal
+      - external
