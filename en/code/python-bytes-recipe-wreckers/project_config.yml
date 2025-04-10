@@ -1,4 +1,4 @@
 name: "Python bytes - Recipe wreckers"
 identifier: "python-bytes-recipe-wreckers"
 type: 'python'
-build: false
+build: true
