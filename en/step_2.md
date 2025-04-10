@@ -16,8 +16,11 @@ Here’s what your code should look like:
 --- code ---
 ---
 language: python
-filename: prank_recipe.py
+filename: main.py
 line_numbers: true
+line_number_start: 11
+line_highlights: 17
+
 ---
 print(
     f'{emoji} Start with a scoop of {carb}',

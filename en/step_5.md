@@ -9,22 +9,28 @@ Now that your recipe looks beautiful… it’s time to ruin it 😂
 
 Use `.replace()` to quietly change the values of your variables **at the top** of your code.
 
-```python
+<div class="c-project-code">
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 2
+line_highlights:
+---
 protein = 'TOFU'.replace('FU', 'AD')         # ➝ TOAD
 veg_1 = 'CARROT'.replace('CAR', '')          # ➝ ROT
 carb = 'RICE'.replace('R', 'L')              # ➝ LICE
-veg_2 = 'PEAS'.replace('P', 'FL')            # ➝ FLEAS
-side = 'BOILED EGGS'.replace('B', 'SP')      # ➝ SPOILED EGGS
-garnish = 'MINT'.replace('M', 'PA')          # ➝ PAINT
-```
+--- /code ---
+</div>
 
 <div class="c-project-callout c-project-callout--tip">
 
 ### Tip
 
 Here are more ideas:
-- `'EGGS'.replace('E', 'L')` ➝ LEGS  
-- `'GRAVY'.replace('GR', 'SL')` ➝ SLAVY  
-- `'CHEESE'.replace('CHE', 'SN')` ➝ SNEEZE
+- PEAS ➝ FLEAS
+- BOILED EGGS ➝ SPOILED EGGS
+- MINT ➝ PAINT
 
 </div>

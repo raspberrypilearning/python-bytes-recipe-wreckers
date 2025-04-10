@@ -20,15 +20,18 @@ The output should be the same — but the code is much easier to read!
 --- code ---
 ---
 language: python
-filename: prank_recipe.py
+filename: main.py
 line_numbers: true
+line_number_start: 11
+line_highlights:
 ---
 print(
     f'{emoji} Start with a scoop of {carb}',
     f'Top with diced {veg_1} and {veg_2}',
     f'Add grilled {protein}',
     f'Garnish with {garnish}',
-    f'Serve with a side of {side}')
+    f'Serve with a side of {side}'
+)
 --- /code ---
 </div>
 
