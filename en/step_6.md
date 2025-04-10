@@ -9,6 +9,7 @@ Your emoji bullets look tasty — but let’s change that!
 
 Use `.replace()` on the `emoji` variable to turn happy symbols into something horrible.
 
+<div class="c-project-code">
 --- code ---
 ---
 language: python
