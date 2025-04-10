@@ -13,7 +13,7 @@ Use `.replace()` on the `emoji` variable to turn happy symbols into something ho
 --- code ---
 ---
 language: python
-filename: recipe_wreckers.py
+filename: main.py
 line_numbers: true
 line_number_start: 8
 line_highlights:
@@ -28,7 +28,7 @@ Or replace the whole thing completely:
 --- code ---
 ---
 language: python
-filename: recipe_wreckers.py
+filename: main.py
 line_numbers: true
 line_number_start: 8
 line_highlights:

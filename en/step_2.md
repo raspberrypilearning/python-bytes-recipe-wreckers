@@ -16,7 +16,7 @@ Here’s what your code should look like:
 --- code ---
 ---
 language: python
-filename: recipe_wreckers.py
+filename: main.py
 line_numbers: true
 line_number_start: 11
 line_highlights: 17

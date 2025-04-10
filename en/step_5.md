@@ -13,7 +13,7 @@ Use `.replace()` to quietly change the values of your variables **at the top** o
 --- code ---
 ---
 language: python
-filename: recipe_wreckers.py
+filename: main.py
 line_numbers: true
 line_number_start: 2
 line_highlights:
