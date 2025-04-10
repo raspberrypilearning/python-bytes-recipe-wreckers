@@ -7,15 +7,24 @@ Use `.title()` and `.lower()` on the ingredient values inside the `print()` line
 
 The ingredients are written in all uppercase — let’s make them easier to read in the final recipe.
 
-- Use `.title()` to capitalise the first letter of each word  
-- Use `.lower()` if it’s something that should be soft or whispered (like herbs)
+- Use `.title()` to make the first letter of each word uppercase  
+- Use `.lower()` to make all the letters lowercase
 
-Update the `print()` lines, not the variables at the top.
+Update each of the `print()` lines. Two lines have been done for you below.
 
-```python
+<div class="c-project-code">
+--- code ---
+---
+language: python
+filename: recipe_wreckers.py
+line_numbers: true
+line_number_start: 14
+line_highlights: 
+---
 f'Add grilled {protein.title()}'
 f'Garnish with {garnish.lower()}'
-```
+--- /code ---
+</div>
 
 <div class="c-project-callout c-project-callout--debug">
 

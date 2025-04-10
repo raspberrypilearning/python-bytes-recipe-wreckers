@@ -9,15 +9,32 @@ Your emoji bullets look tasty — but let’s change that!
 
 Use `.replace()` on the `emoji` variable to turn happy symbols into something horrible.
 
-```python
+--- code ---
+---
+language: python
+filename: recipe_wreckers.py
+line_numbers: true
+line_number_start: 8
+line_highlights:
+---
 emoji = '🍽️😋'.replace('😋', '🤢')  # ➝ 🍽️🤢
-```
+--- /code ---
+</div>
 
 Or replace the whole thing completely:
 
-```python
+<div class="c-project-code">
+--- code ---
+---
+language: python
+filename: recipe_wreckers.py
+line_numbers: true
+line_number_start: 8
+line_highlights:
+---
 emoji = '🪳💀'
-```
+--- /code ---
+</div>
 
 <div class="c-project-callout c-project-callout--tip">
 
