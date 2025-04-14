@@ -5,7 +5,7 @@ Split the long print statement onto multiple lines so it’s easier to understan
 
 <h2 class="c-project-heading--explainer">Readable code is good code</h2>
 
-The café manager has written all the print parts on one long line — it works, but it's hard to read!
+A café manager has written all the recipe print parts on one long line — it works, but it's hard to read!
 
 Luckily, Python lets you write long `print()` statements across multiple lines.  
 You just need to **end each part with a comma**, and Python will still treat it as one command.
