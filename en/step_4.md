@@ -6,8 +6,7 @@ Use `.title()` and `.lower()` on the ingredient values inside the `print()` line
 <h2 class="c-project-heading--explainer">Make the ingredients readable</h2>
 
 The ingredients are written in all uppercase — let’s make them easier to read in the final recipe.
-
-- Use `.title()` to make the first letter of each word uppercase  
+ 
 - Use `.lower()` to make all the letters lowercase
 
 Update each of the `print()` lines. Two lines have been done for you below.
@@ -21,7 +20,7 @@ line_numbers: true
 line_number_start: 14
 line_highlights: 
 ---
-f'Add grilled {protein.title()}'
+f'Add grilled {protein.lower()}'
 f'Garnish with {garnish.lower()}'
 --- /code ---
 </div>
@@ -30,6 +29,6 @@ f'Garnish with {garnish.lower()}'
 
 ### Debugging
 
-Make sure your parentheses and curly braces match correctly when calling `.title()` or `.lower()` inside a string.
+Make sure your parentheses and curly braces match correctly when calling `.lower()` inside a string.
 
 </div>

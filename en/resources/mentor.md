@@ -4,7 +4,7 @@
 
 This lesson builds on the basics of `print()` and f-strings by introducing:
 - Print formatting using `sep=` and `end=`
-- String case methods (`.title()`, `.lower()`)
+- String case methods (`.lower()`)
 - Pranking techniques with `.replace()`
 - Visual enhancement with emoji
 
@@ -17,7 +17,7 @@ Learners take an existing recipe and gradually transform it into something easie
 - How to split long lines of code for readability
 - How to use `sep='\n'` to add line breaks
 - How to insert emoji as bullet points
-- How to use `.title()` and `.lower()` for styling
+- How to use `.lower()` for styling
 - How to use `.replace()` for creative pranks
 
 ---

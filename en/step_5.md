@@ -18,9 +18,8 @@ line_numbers: true
 line_number_start: 2
 line_highlights:
 ---
-protein = 'TOFU'.replace('FU', 'AD')         # ➝ TOAD
-veg_1 = 'CARROT'.replace('CAR', '')          # ➝ ROT
-carb = 'RICE'.replace('R', 'L')              # ➝ LICE
+protein = 'TOFU'.replace('FU', 'AD')  # ➝ TOAD
+veg_1 = 'CARROT'.replace('CAR', '')  # ➝ ROT
 --- /code ---
 </div>
 
@@ -30,6 +29,7 @@ carb = 'RICE'.replace('R', 'L')              # ➝ LICE
 
 Here are more ideas:
 - PEAS ➝ FLEAS
+- RICE ➝ LICE
 - BOILED EGGS ➝ SPOILED EGGS
 - MINT ➝ PAINT
 
