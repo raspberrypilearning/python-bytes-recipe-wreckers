@@ -23,7 +23,7 @@ line_highlights: 17
 
 ---
 print(
-    f'{emoji} Start with a scoop of {carb}',
+    f'Start with a scoop of {carb}',
     f'Top with diced {veg_1} and {veg_2}',
     f'Add grilled {protein}',
     f'Garnish with {garnish}',

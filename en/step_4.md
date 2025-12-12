@@ -1,13 +1,15 @@
-<h2 class="c-project-heading--task">Sabotage the recipe with .replace()</h2>
+<h2 class="c-project-heading--task">Fix the ingredient formatting</h2>
 --- task ---
-Use `.replace()` to secretly swap ingredients with disgusting ones!
+Use `.title()` and `.lower()` on the ingredient values inside the `print()` line.
 --- /task ---
 
-<h2 class="c-project-heading--explainer">Let the prank begin</h2>
+<h2 class="c-project-heading--explainer">Make the ingredients readable</h2>
 
-Now that your recipe looks beautiful… it’s time to ruin it 😂
+The ingredients are written in all uppercase — let’s make them easier to read in the final recipe.
+ 
+- Use `.lower()` to make all the letters lowercase
 
-Use `.replace()` to quietly change the values of your variables **at the top** of your code.
+Update each of the `print()` lines. Two lines have been done for you below.
 
 <div class="c-project-code">
 --- code ---
@@ -15,22 +17,18 @@ Use `.replace()` to quietly change the values of your variables **at the top** o
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 2
-line_highlights:
+line_number_start: 14
+line_highlights: 
 ---
-protein = 'TOFU'.replace('FU', 'AD')         # ➝ TOAD
-veg_1 = 'CARROT'.replace('CAR', '')          # ➝ ROT
-carb = 'RICE'.replace('R', 'L')              # ➝ LICE
+f'Add grilled {protein.lower()}'
+f'Garnish with {garnish.lower()}'
 --- /code ---
 </div>
 
-<div class="c-project-callout c-project-callout--tip">
+<div class="c-project-callout c-project-callout--debug">
 
-### Tip
+### Debugging
 
-Here are more ideas:
-- PEAS ➝ FLEAS
-- BOILED EGGS ➝ SPOILED EGGS
-- MINT ➝ PAINT
+Make sure your parentheses and curly braces match correctly when calling `.lower()` inside a string.
 
 </div>

@@ -1,16 +1,16 @@
-<h2 class="c-project-heading--task">Fix the ingredient formatting</h2>
+
+<h2 class="c-project-heading--task">Add emoji bullets</h2>
 --- task ---
-Use `.title()` and `.lower()` on the ingredient values inside the `print()` line.
+Use the emoji variable to add a bullet point to every line.
 --- /task ---
 
-<h2 class="c-project-heading--explainer">Make the ingredients readable</h2>
+<h2 class="c-project-heading--explainer">Make your list look amazing</h2>
 
-The ingredients are written in all uppercase — let’s make them easier to read in the final recipe.
+Now that the lines are separated, let’s add some bullet points!
 
-- Use `.title()` to make the first letter of each word uppercase  
-- Use `.lower()` to make all the letters lowercase
+You can do this by changing the separator again, this time to `sep='\n' + emoji`.
 
-Update each of the `print()` lines. Two lines have been done for you below.
+Also, you’ll want to manually add the emoji at the **start of the first line**, since `sep` only adds it *between* lines.
 
 <div class="c-project-code">
 --- code ---
@@ -18,18 +18,27 @@ Update each of the `print()` lines. Two lines have been done for you below.
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 14
-line_highlights: 
+line_number_start: 11
+line_highlights: 12, 17
 ---
-f'Add grilled {protein.title()}'
-f'Garnish with {garnish.lower()}'
+print(
+    f'{emoji}Start with a scoop of {carb}',
+    f'Top with diced {veg_1} and {veg_2}',
+    f'Add grilled {protein}',
+    f'Garnish with {garnish}',
+    f'Serve with a side of {side}',
+    sep='\n' + emoji
+)
 --- /code ---
 </div>
 
-<div class="c-project-callout c-project-callout--debug">
+<div class="c-project-callout c-project-callout--tip">
 
-### Debugging
+### Tip
 
-Make sure your parentheses and curly braces match correctly when calling `.title()` or `.lower()` inside a string.
+Try changing the `emoji` variable at the top to something cute like:<br />
+• 🍽️😋<br />
+• 🧁<br />
+• 🍱
 
 </div>
