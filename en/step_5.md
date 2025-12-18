@@ -1,6 +1,9 @@
 <h2 class="c-project-heading--task">Sabotage the recipe with .replace()</h2>
+
 --- task ---
+
 Use `.replace()` to secretly swap ingredients with disgusting ones!
+
 --- /task ---
 
 <h2 class="c-project-heading--explainer">Let the prank begin</h2>
@@ -18,9 +21,12 @@ line_numbers: true
 line_number_start: 2
 line_highlights:
 ---
+
 protein = 'TOFU'.replace('FU', 'AD')  # ➝ TOAD
 veg_1 = 'CARROT'.replace('CAR', '')  # ➝ ROT
+
 --- /code ---
+
 </div>
 
 <div class="c-project-callout c-project-callout--tip">

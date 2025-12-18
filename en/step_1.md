@@ -1,6 +1,9 @@
 <h2 class="c-project-heading--task">Make the code easier to read</h2>
+
 --- task ---
+
 Split the long print statement onto multiple lines so it’s easier to understand.
+
 --- /task ---
 
 <h2 class="c-project-heading--explainer">Readable code is good code</h2>
@@ -25,6 +28,7 @@ line_numbers: true
 line_number_start: 11
 line_highlights:
 ---
+
 print(
     f'Start with a scoop of {carb}',
     f'Top with diced {veg_1} and {veg_2}',
@@ -32,7 +36,9 @@ print(
     f'Garnish with {garnish}',
     f'Serve with a side of {side}'
 )
+
 --- /code ---
+
 </div>
 
 <div class="c-project-callout c-project-callout--tip">
