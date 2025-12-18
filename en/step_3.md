@@ -1,7 +1,10 @@
 
 <h2 class="c-project-heading--task">Add emoji bullets</h2>
+
 --- task ---
+
 Use the emoji variable to add a bullet point to every line.
+
 --- /task ---
 
 <h2 class="c-project-heading--explainer">Make your list look amazing</h2>
@@ -21,6 +24,7 @@ line_numbers: true
 line_number_start: 11
 line_highlights: 12, 17
 ---
+
 print(
     f'{emoji}Start with a scoop of {carb}',
     f'Top with diced {veg_1} and {veg_2}',
@@ -29,7 +33,9 @@ print(
     f'Serve with a side of {side}',
     sep='\n' + emoji
 )
+
 --- /code ---
+
 </div>
 
 <div class="c-project-callout c-project-callout--tip">

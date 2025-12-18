@@ -1,6 +1,9 @@
 <h2 class="c-project-heading--task">Fix the output format</h2>
+
 --- task ---
+
 Use `sep='\n'` to print each part of the recipe on its own line.
+
 --- /task ---
 
 <h2 class="c-project-heading--explainer">Split the output into lines</h2>
@@ -20,8 +23,8 @@ filename: main.py
 line_numbers: true
 line_number_start: 11
 line_highlights: 17
-
 ---
+
 print(
     f'Start with a scoop of {carb}',
     f'Top with diced {veg_1} and {veg_2}',
@@ -30,7 +33,9 @@ print(
     f'Serve with a side of {side}',
     sep='\n'
 )
+
 --- /code ---
+
 </div>
 
 <div class="c-project-callout c-project-callout--debug">

@@ -1,6 +1,9 @@
 <h2 class="c-project-heading--task">Replace the emoji for fun (or horror)</h2>
+
 --- task ---
+
 Use `.replace()` on the emoji variable to turn cute bullets into creepy ones.
+
 --- /task ---
 
 <h2 class="c-project-heading--explainer">Change the mood with emoji</h2>
@@ -18,8 +21,11 @@ line_numbers: true
 line_number_start: 8
 line_highlights:
 ---
+
 emoji = '🍽️😋'.replace('😋', '🤢')  # ➝ 🍽️🤢
+
 --- /code ---
+
 </div>
 
 Or replace the whole thing completely:
@@ -33,8 +39,11 @@ line_numbers: true
 line_number_start: 8
 line_highlights:
 ---
+
 emoji = '🪳💀'
+
 --- /code ---
+
 </div>
 
 <div class="c-project-callout c-project-callout--tip">

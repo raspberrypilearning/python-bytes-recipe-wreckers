@@ -1,6 +1,9 @@
 <h2 class="c-project-heading--task">Fix the ingredient formatting</h2>
+
 --- task ---
+
 Use `.title()` and `.lower()` on the ingredient values inside the `print()` line.
+
 --- /task ---
 
 <h2 class="c-project-heading--explainer">Make the ingredients readable</h2>
@@ -20,9 +23,12 @@ line_numbers: true
 line_number_start: 14
 line_highlights: 
 ---
+
 f'Add grilled {protein.lower()}'
 f'Garnish with {garnish.lower()}'
+
 --- /code ---
+
 </div>
 
 <div class="c-project-callout c-project-callout--debug">
