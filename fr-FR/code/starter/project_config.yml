@@ -1,0 +1,4 @@
+name: "Python bytes - Gâcheurs de recette"
+identifier: "python-bytes-recipe-wreckers"
+type: 'python'
+build: true

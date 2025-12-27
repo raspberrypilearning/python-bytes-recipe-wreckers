@@ -1,0 +1,21 @@
+title: Python bytes - Gâcheurs de recette
+hero_image: images/banner.png
+description: Crée et sabote secrètement une recette en utilisant les méthodes de formatage d'impression et de manipulation de chaînes de caractères Python.
+meta_title: Projets de programmation Python pour enfants et adolescent·e·s | Gâcheurs de recette
+meta_description: Apprends Python avec la Raspberry Pi Foundation. Crée et sabote secrètement une recette en utilisant print(), les f-strings, les emojis et .replace().
+version: 1
+listed: true
+copyedit: false
+last_tested: "2025-04-04"
+steps:
+  - title: step_1
+  - title: step_2
+    completion:
+      - engaged
+  - title: step_3
+  - title: step_4
+  - title: step_5
+  - title: step_6
+    completion:
+      - internal
+      - external
