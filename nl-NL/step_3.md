@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Voeg emoji-opsommingstekens toe</h2>
 
-\--- task ---
+--- task ---
 
 Gebruik de emoji-variabele om aan elke regel een opsommingsteken toe te voegen.
 
-\--- /task ---
+--- /task ---
 
 <h2 class="c-project-heading--explainer">Zorg dat je lijst er fantastisch uitziet</h2>
 
@@ -33,7 +33,7 @@ f'Serveer met een bijgerecht van {bijgerecht}',
 sep='\n' + emoji
 )
 
-\--- /code ---
+--- /code ---
 
 </div>
 

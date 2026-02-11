@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Corrigeer de opmaak van de ingrediënten</h2>
 
-\--- task ---
+--- task ---
 
 Gebruik `.title()` en `.lower()` voor de ingrediëntwaarden binnen de `print()`-regel.
 
-\--- /task ---
+--- /task ---
 
 <h2 class="c-project-heading--explainer">Zorg dat de ingrediënten leesbaar zijn</h2>
 
@@ -27,7 +27,7 @@ line_highlights:
 f'Voeg gegrilde {eiwitten.lower()} toe'
 f'Garneer met {garnering.lower()}'
 
-\--- /code ---
+--- /code ---
 
 </div>
 

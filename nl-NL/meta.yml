@@ -1,8 +1,9 @@
+---
 title: Python-bytes - Receptverpesters
 hero_image: images/banner.png
 description: Maak en saboteer stiekem een recept met behulp van Python-opmaakfuncties en tekenreeksmethoden.
-meta_title: Python-programmeerprojecten voor kinderen en tieners | Receptverpesters
-meta_description: Leer Python met de Raspberry Pi Foundation. Maak en verpest stiekem een recept met behulp van print(), f-strings, emoji en .replace().
+meta_title: Python coding projects for kids and teens | Recipe Wreckers
+meta_description: Learn Python with the Raspberry Pi Foundation. Make and secretly ruin a recipe using print(), f-strings, emoji, and .replace().
 version: 1
 listed: true
 copyedit: false

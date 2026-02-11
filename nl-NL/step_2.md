@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Corrigeer het uitvoerformaat</h2>
 
-\--- task ---
+--- task ---
 
 Gebruik `sep='\n'` om elk onderdeel van het recept op een aparte regel af te drukken.
 
-\--- /task ---
+--- /task ---
 
 <h2 class="c-project-heading--explainer">Splits de uitvoer in regels</h2>
 
@@ -34,7 +34,7 @@ f'Serveer met een bijgerecht van {bijgerecht}',
 sep='\n'
 )
 
-\--- /code ---
+--- /code ---
 
 </div>
 
