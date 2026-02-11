@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Sabotage de la recette avec la fonction .replace()</h2>
 
-\--- task ---
+--- task ---
 
 Utilise `.replace()` pour remplacer secrètement les ingrédients par des ingrédients dégoûtants !
 
-\--- /task ---
+--- /task ---
 
 <h2 class="c-project-heading--explainer">Que la farce commence</h2>
 
@@ -25,7 +25,7 @@ line_highlights:
 proteine = 'TOFU'.replace('FU', 'RTUE') # ➝ TORTUE
 veg_1 = 'CAROTTE'.replace('CAR', 'B') # ➝ BOTTE
 
-\--- /code ---
+--- /code ---
 
 </div>
 

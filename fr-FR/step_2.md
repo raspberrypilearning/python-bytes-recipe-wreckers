@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Corriger le format de sortie</h2>
 
-\--- task ---
+--- task ---
 
 Utilise `sep='\n'` pour imprimer chaque partie de la recette sur sa propre ligne.
 
-\--- /task ---
+--- /task ---
 
 <h2 class="c-project-heading--explainer">Diviser la sortie en lignes</h2>
 
@@ -34,7 +34,7 @@ f'Servez avec un accompagnement de {accompagnement}'),
 sep='\n'
 )
 
-\--- /code ---
+--- /code ---
 
 </div>
 

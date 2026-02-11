@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Ajouter des puces emoji</h2>
 
-\--- task ---
+--- task ---
 
 Utilise la variable emoji pour ajouter une puce à chaque ligne.
 
-\--- /task ---
+--- /task ---
 
 <h2 class="c-project-heading--explainer">Embellir ta liste</h2>
 
@@ -33,7 +33,7 @@ f'Servez avec un accompagnement de {accompagnement}'),
 sep='\n + emoji'
 )
 
-\--- /code ---
+--- /code ---
 
 </div>
 
