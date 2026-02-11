@@ -30,11 +30,11 @@ line_highlights:
 ---
 
 print(
-f'Commencez par une dose de {glucide}',
-f'Recouvrez de dés de {legume_1} et de {legume_2}',
-f'Ajoutez des {proteine} grillées',
-f'Garnisez avec {garniture}',
-f'Servez avec un accompagnement de {accompagnement}'
+    f'Commencez par une dose de {glucide}',
+    f'Recouvrez de dés de {legume_1} et de {legume_2}',
+    f'Ajoutez des {proteine} grillées',
+    f'Garnisez avec {garniture}',
+    f'Servez avec un accompagnement de {accompagnement}'
 )
 
 --- /code ---
