@@ -26,12 +26,12 @@ line_highlights: 17
 ---
 
 print(
-f'Begin met een schepje {koolhydraten}',
-f'Bedek met in blokjes gesneden {groente_1} and {groente_2}',
-f'Voeg gegrilde {eiwitten} toe',
-f'Garneer met {garnering}',
-f'Serveer met een bijgerecht van {bijgerecht}',
-sep='\n'
+    f'Begin met een schepje {koolhydraten}',
+    f'Bedek met in blokjes gesneden {groente_1} and {groente_2}',
+    f'Voeg gegrilde {eiwitten} toe',
+    f'Garneer met {garnering}',
+    f'Serveer met een bijgerecht van {bijgerecht}',
+    sep='\n'
 )
 
 --- /code ---

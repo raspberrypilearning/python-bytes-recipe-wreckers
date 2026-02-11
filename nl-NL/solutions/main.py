@@ -2,7 +2,7 @@ emoji = '🍽️😋'.replace('😋', '🤢')
 
 eiwitten = 'TOFU'.replace('FU', 'NG') # ➝ TONG
 groente_1 = 'WORTEL'.replace('RTE', '') # ➝ WOL
-koolhydraten = 'RIJST'.replace('IJ', OE') # ➝ ROEST
+koolhydraten = 'RIJST'.replace('IJ', 'OE') # ➝ ROEST
 groente_2 = 'ERWTEN'
 garnering = 'MUNT'
 bijgerecht = 'GEKOOKTE EIEREN'
