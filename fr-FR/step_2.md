@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Corriger le format de sortie</h2>
 
---- task ---
+\--- task ---
 
 Utilise `sep='\n'` pour imprimer chaque partie de la recette sur sa propre ligne.
 
---- /task ---
+\--- /task ---
 
 <h2 class="c-project-heading--explainer">Diviser la sortie en lignes</h2>
 
@@ -26,15 +26,15 @@ line_highlights: 17
 ---
 
 print(
-    f'Commencez par une dose de {glucide}',
-    f'Recouvrez de dés de {legume_1} et de {legume_2}',
-    f'Ajoutez des {proteine} grillées',
-    f'Garnisez avec {garniture}',
-    f'Servez avec un accompagnement de {accompagnement}',
-    sep='\n'
+f'Commencez par une dose de {glucide}',
+f'Recouvrez de dés de {legume_1} et de {legume_2}',
+f'Ajoutez des {proteine} grillées',
+f'Garnisez avec {garniture}',
+f'Servez avec un accompagnement de {accompagnement}',
+sep='\n'
 )
 
---- /code ---
+\--- /code ---
 
 </div>
 
