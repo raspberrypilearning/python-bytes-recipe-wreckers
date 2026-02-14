@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Maak de code gemakkelijker te lezen</h2>
 
---- task ---
+\--- task ---
 
 Splits de lange printopdracht op in meerdere regels, zodat deze beter te begrijpen is.
 
---- /task ---
+\--- /task ---
 
 <h2 class="c-project-heading--explainer">Leesbare code is goede code</h2>
 
@@ -30,14 +30,14 @@ line_highlights:
 ---
 
 print(
-    f'Begin met een schepje {koolhydraten}',
-    f'Bedek met in blokjes gesneden {groente_1} and {groente_2}',
-    f'Voeg gegrilde {eiwitten} toe',
-    f'Garneer met {garnering}',
-    f'Serveer met een bijgerecht van {bijgerecht}'
+f'Begin met een schepje {koolhydraten}',
+f'Bedek met in blokjes gesneden {groente_1} and {groente_2}',
+f'Voeg gegrilde {eiwitten} toe',
+f'Garneer met {garnering}',
+f'Serveer met een bijgerecht van {bijgerecht}'
 )
 
---- /code ---
+\--- /code ---
 
 </div>
 
