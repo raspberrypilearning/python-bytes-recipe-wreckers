@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Corrigeer het uitvoerformaat</h2>
 
---- task ---
+\--- task ---
 
 Gebruik `sep='\n'` om elk onderdeel van het recept op een aparte regel af te drukken.
 
---- /task ---
+\--- /task ---
 
 <h2 class="c-project-heading--explainer">Splits de uitvoer in regels</h2>
 
@@ -26,15 +26,15 @@ line_highlights: 17
 ---
 
 print(
-    f'Begin met een schepje {koolhydraten}',
-    f'Bedek met in blokjes gesneden {groente_1} and {groente_2}',
-    f'Voeg gegrilde {eiwitten} toe',
-    f'Garneer met {garnering}',
-    f'Serveer met een bijgerecht van {bijgerecht}',
-    sep='\n'
+f'Begin met een schepje {koolhydraten}',
+f'Bedek met in blokjes gesneden {groente_1} and {groente_2}',
+f'Voeg gegrilde {eiwitten} toe',
+f'Garneer met {garnering}',
+f'Serveer met een bijgerecht van {bijgerecht}',
+sep='\n'
 )
 
---- /code ---
+\--- /code ---
 
 </div>
 
