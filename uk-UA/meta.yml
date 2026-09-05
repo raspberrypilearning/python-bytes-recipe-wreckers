@@ -1,0 +1,21 @@
+title: Python bytes — шкідники рецептів
+hero_image: images/banner.png
+description: Створи рецепт і таємно зіпсуй його за допомогою форматування виводу Python і методів рядків.
+meta_title: Проєкти з кодування Python для дітей і підлітків | Recipe Wreckers
+meta_description: Вивчай Python із Raspberry Pi Foundation. Створи рецепт і таємно зіпсуй його за допомогою print(), f-рядків, емоджі та .replace().
+version: 1
+listed: true
+copyedit: false
+last_tested: "2025-04-04"
+steps:
+  - title: step_1
+  - title: step_2
+    completion:
+      - engaged
+  - title: step_3
+  - title: step_4
+  - title: step_5
+  - title: step_6
+    completion:
+      - internal
+      - external
