@@ -1,0 +1,4 @@
+name: "Python bytes - Recipe wreckers complete"
+identifier: "python-bytes-recipe-wreckers-complete"
+type: 'python'
+build: true
