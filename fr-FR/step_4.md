@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Corriger le formatage des ingrédients</h2>
 
---- task ---
+\--- task ---
 
 Utilise `.title()` et `.lower()` sur les valeurs des ingrédients à l'intérieur de la ligne `print()`.
 
---- /task ---
+\--- /task ---
 
 <h2 class="c-project-heading--explainer">Rendre les ingrédients lisibles</h2>
 
@@ -27,7 +27,7 @@ line_highlights:
 f'Ajoutez des {proteine.lower()} grillées'
 f'Garnisez avec {accompagnement.lower()}'
 
---- /code ---
+\--- /code ---
 
 </div>
 
