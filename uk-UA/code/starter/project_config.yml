@@ -1,0 +1,4 @@
+name: "Байти Python — руйнівники рецептів"
+identifier: "python-bytes-recipe-wreckers"
+type: 'python'
+build: true
