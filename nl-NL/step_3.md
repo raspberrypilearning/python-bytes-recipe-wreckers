@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Voeg emoji-opsommingstekens toe</h2>
 
---- task ---
+\--- task ---
 
 Gebruik de emoji-variabele om aan elke regel een opsommingsteken toe te voegen.
 
---- /task ---
+\--- /task ---
 
 <h2 class="c-project-heading--explainer">Zorg dat je lijst er fantastisch uitziet</h2>
 
@@ -25,15 +25,15 @@ line_highlights: 12, 17
 ---
 
 print(
-    f'{emoji}Begin met een schepje {koolhydraten}',
-    f'Bedek met in blokjes gesneden {groente_1} and {groente_2}',
-    f'Voeg gegrilde {eiwitten} toe',
-    f'Garneer met {garnering}',
-    f'Serveer met een bijgerecht van {bijgerecht}',
-    sep='\n' + emoji
+f'{emoji}Begin met een schepje {koolhydraten}',
+f'Bedek met in blokjes gesneden {groente_1} and {groente_2}',
+f'Voeg gegrilde {eiwitten} toe',
+f'Garneer met {garnering}',
+f'Serveer met een bijgerecht van {bijgerecht}',
+sep='\n' + emoji
 )
 
---- /code ---
+\--- /code ---
 
 </div>
 
