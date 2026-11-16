@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Saboteer het recept met .replace()</h2>
 
---- task ---
+\--- task ---
 
 Gebruik `.replace()` om ingrediënten stiekem te vervangen door walgelijke ingrediënten!
 
---- /task ---
+\--- /task ---
 
 <h2 class="c-project-heading--explainer">Laat de grap beginnen</h2>
 
@@ -25,7 +25,7 @@ line_highlights:
 eiwitten = 'TOFU'.replace('FU', 'NG') # ➝ TONG
 groente_1 = 'WORTEL'.replace('RTE', '') # ➝ WOL
 
---- /code ---
+\--- /code ---
 
 </div>
 
